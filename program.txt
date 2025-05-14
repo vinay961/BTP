@@ -1,0 +1,25 @@
+a := 5
+a := a*5
+print a
+if a > 4
+	print a
+	a := a / 5
+	print a
+	a := a + 5
+	print a
+	a := a - 5
+	print a
+	a := a * 5
+	print a
+else
+	a := 4
+endif
+print a
+
+
+
+while a < 10
+	a := a + 1
+endwhile
+
+print a
